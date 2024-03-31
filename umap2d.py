@@ -16,7 +16,7 @@ x_umap = umap.fit_transform(x)
 plt.figure(figsize=(10, 8))
 for i in range(10):
     plt.scatter(x_umap[y == i, 0], x_umap[y == i, 1], s=1, label=str(i))
-plt.title('UMAP Visualization of the Dataset')
+plt.title('UMAP Visualization of MNIST Dataset')
 plt.xlabel('UMAP Component 1')
 plt.ylabel('UMAP Component 2')
 plt.legend(title='Digit')
